@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(fonts/Roboto-Thin.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(fonts/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url(fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    border: 1px solid #000000;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #807e7e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fcdb00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
