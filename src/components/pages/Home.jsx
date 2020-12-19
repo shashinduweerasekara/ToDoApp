@@ -49,15 +49,15 @@ function Home() {
                                 </p>
                             </div>
                             <div className="buttonSet row col-3 ">
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 dl">
                                     <DeleteForeverSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 ed">
                                     <EditSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 cp">
                                     <AssignmentTurnedInSharpIcon />
                                 </button>
                             </div>
@@ -73,15 +73,15 @@ function Home() {
                                 </p>
                             </div>
                             <div className="buttonSet row col-3 ">
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 dl">
                                     <DeleteForeverSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 ed">
                                     <EditSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 cp">
                                     <AssignmentTurnedInSharpIcon />
                                 </button>
                             </div>
@@ -97,15 +97,15 @@ function Home() {
                                 </p>
                             </div>
                             <div className="buttonSet row col-3 ">
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 dl">
                                     <DeleteForeverSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 ed">
                                     <EditSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 cp">
                                     <AssignmentTurnedInSharpIcon />
                                 </button>
                             </div>
@@ -121,15 +121,15 @@ function Home() {
                                 </p>
                             </div>
                             <div className="buttonSet row col-3 ">
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 dl">
                                     <DeleteForeverSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 ed">
                                     <EditSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 cp">
                                     <AssignmentTurnedInSharpIcon />
                                 </button>
                             </div>
@@ -145,22 +145,94 @@ function Home() {
                                 </p>
                             </div>
                             <div className="buttonSet row col-3 ">
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 dl">
                                     <DeleteForeverSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 ed">
                                     <EditSharpIcon />
                                 </button>
 
-                                <button className="listIcon col-3">
+                                <button className="listIcon col-3 cp">
+                                    <AssignmentTurnedInSharpIcon />
+                                </button>
+                            </div>
+                        </li>
+                        <li className="row">
+                            <div className="col-9">
+                                <h5>HIGH</h5>
+                                <h3>Go to the market</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nulla corporis quia
+                                    dolores placeat eveniet repudiandae.
+                                </p>
+                            </div>
+                            <div className="buttonSet row col-3 ">
+                                <button className="listIcon col-3 dl">
+                                    <DeleteForeverSharpIcon />
+                                </button>
+
+                                <button className="listIcon col-3 ed">
+                                    <EditSharpIcon />
+                                </button>
+
+                                <button className="listIcon col-3 cp">
+                                    <AssignmentTurnedInSharpIcon />
+                                </button>
+                            </div>
+                        </li>
+                        <li className="row">
+                            <div className="col-9">
+                                <h5>HIGH</h5>
+                                <h3>Go to the market</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nulla corporis quia
+                                    dolores placeat eveniet repudiandae.
+                                </p>
+                            </div>
+                            <div className="buttonSet row col-3 ">
+                                <button className="listIcon col-3 dl">
+                                    <DeleteForeverSharpIcon />
+                                </button>
+
+                                <button className="listIcon col-3 ed">
+                                    <EditSharpIcon />
+                                </button>
+
+                                <button className="listIcon col-3 cp">
+                                    <AssignmentTurnedInSharpIcon />
+                                </button>
+                            </div>
+                        </li>
+                        <li className="row">
+                            <div className="col-9">
+                                <h5>HIGH</h5>
+                                <h3>Go to the market</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Nulla corporis quia
+                                    dolores placeat eveniet repudiandae.
+                                </p>
+                            </div>
+                            <div className="buttonSet row col-3 ">
+                                <button className="listIcon col-3 dl">
+                                    <DeleteForeverSharpIcon />
+                                </button>
+
+                                <button className="listIcon col-3 ed">
+                                    <EditSharpIcon />
+                                </button>
+
+                                <button className="listIcon col-3 cp">
                                     <AssignmentTurnedInSharpIcon />
                                 </button>
                             </div>
                         </li>
                     </ul>
                 </div>
-                <div className="completeListBtn">
+                <div className="bottomContainer">
                     <button>COMPLETED TASKS</button>
                 </div>
             </div>

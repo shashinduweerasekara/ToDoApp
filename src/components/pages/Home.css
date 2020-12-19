@@ -6,45 +6,58 @@
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    height: 90%;
-    background-color: #fcdb00;
+    height: 95%;
 }
-
+.header {
+    height: 10%;
+}
 .header p {
-    margin: 5px auto;
+    color: #faad17;
+    margin: auto;
     font-size: 40px;
     font-weight: 900;
+    border-bottom: 5px solid #4fa6db;
 }
 
 .features {
-    border-bottom: 2px solid #000000;
-    border-top: 5px solid #000000;
+    height: 7.5%;
+}
+
+.features div {
+    margin: auto;
 }
 
 .features div button {
     width: 90%;
-    height: 40px;
+    height: 90%;
     font-size: 20px;
     font-weight: 700;
-    border: 1px solid #000000;
-    background-color: #fcdb00;
-    margin: 10px auto;
+    border: 1px solid #eb6952;
+    background-color: #eb6952;
 }
 
 .content {
     overflow: auto;
-    height: 70%;
-    background-color: #ffffff;
+    height: 75%;
     padding: 0 5px 0 0;
+    color: #ffffff;
 }
 
-.completeListBtn button {
+.bottomContainer {
+    height: 7.5%;
     width: 100%;
-    height: 50px;
-    border-top: 2px solid #000000;
-    background-color: #fcdb00;
-    font-size: 20px;
-    font-weight: 700;
+    position: fixed;
+    bottom: 0;
+}
+
+.bottomContainer button {
+    height: 100%;
+    width: 100%;
+    color: #008037;
+    font-size: 30px;
+    font-weight: 900;
+    background-color: #000000;
+    border: 1px solid #008037;
 }
 
 .taskList {
@@ -54,7 +67,7 @@
 .taskList li {
     text-align: start;
     margin-bottom: 5px;
-    border: 1px solid #000000;
+    border: 1px solid #b3b3b3;
 }
 
 .taskList h5 {
@@ -78,9 +91,23 @@
     height: 40%;
     width: 25%;
     margin: 0 3px;
-    background-color: #fcdb00;
-    border: 1px solid #000000;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dl {
+    background-color: #ff1616;
+    border: 1px solid #ff1616;
+}
+
+.ed {
+    background-color: #03989e;
+    border: 1px solid #03989e;
+}
+
+.cp {
+    background-color: #008037;
+    border: 1px solid #008037;
 }
