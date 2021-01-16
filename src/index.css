@@ -36,17 +36,17 @@
 
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #000000;
+    background: #aad3e0;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #4fa6db;
+    background: #61355f;
 }
 
 * {
@@ -58,5 +58,6 @@ body {
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    font-size: 16px;
+    font-weight: 400;
 }

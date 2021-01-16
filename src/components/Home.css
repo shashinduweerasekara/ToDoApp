@@ -1,0 +1,112 @@
+.container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid #9b4980;
+    border-radius: 5px;
+    height: 95%;
+}
+
+.todoForm {
+    border-top: 1px solid #9b4980;
+    border-bottom: 1px solid #9b4980;
+    margin-bottom: 5px;
+}
+
+.appTitle > p {
+    margin: 5px auto 10px;
+    text-align: center;
+    color: #61355f;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.todoCount {
+    font-size: 26px !important;
+}
+
+.formStart {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formLable {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 2px 10px;
+    color: #61355f;
+}
+
+.formInput {
+    font-size: 16px;
+    margin: 2px 10px 5px;
+    border: 2px solid #9b4980;
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+}
+
+textarea {
+    width: 90% !important;
+    height: 50px !important;
+    font-family: "Roboto", sans-serif;
+}
+
+.formEnd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.addTodoBtn {
+    margin: 10px 40px 7px;
+    background-color: #61355f;
+    border-radius: 5px;
+    font-size: 26px;
+    font-weight: 900;
+    color: #aad3e0;
+}
+
+.addTodoBtn:disabled {
+    background-color: #ffffff;
+    color: #aad3e0;
+}
+
+.todoList {
+    overflow: auto;
+    height: 61%;
+}
+
+.todoList {
+    padding: 0 5px;
+}
+
+.todoListItem {
+    border: 1px solid #0d9aa2;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: auto;
+}
+
+.todoTitle {
+    font-weight: 700;
+}
+
+.todoPriority {
+    background-color: #045f6b;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.todoDeleteBtn {
+    width: 50%;
+    height: 75%;
+    margin: auto;
+    background-color: #045f6b;
+    border-radius: 5px;
+    color: #aad3e0;
+}
